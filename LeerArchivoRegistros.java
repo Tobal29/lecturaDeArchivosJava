@@ -18,6 +18,8 @@ public class leerArchivoRegistros {
 
             
                 // obtengo los valores de linea
+                // Integer.parseInt() convierte un int a string
+                // el trim() elimina elimina los espacios en blanco
                 int numero = Integer.parseInt(campos[0].trim());
                 String nombre = campos[1].trim();
                 String apellido = campos[2].trim();
