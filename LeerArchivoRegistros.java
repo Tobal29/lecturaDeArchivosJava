@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 import java.awt.*; // para hacer el sonido se llama con Toolkit.getDefaultToolkit().beep(); (no es nesesario)
 
-public class LeerArchivoRegistros {
+public class leerArchivoRegistros {
 
     public static void main(String[] args) {
         String nombreArchivo = "registros.txt"; // menciono el archivo txt a leer
